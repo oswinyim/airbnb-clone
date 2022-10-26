@@ -28,6 +28,7 @@ const Map = ({ searchResults }: MapProps) => {
     zoom: 7.5,
   });
 
+  console.log(process.env)
   return (
     <MapGL
       {...viewState}
