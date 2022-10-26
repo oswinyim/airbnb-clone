@@ -28,12 +28,11 @@ const Map = ({ searchResults }: MapProps) => {
     zoom: 7.5,
   });
 
-  console.log(process.env)
   return (
     <MapGL
       {...viewState}
       mapStyle="mapbox://styles/oswinyim/cl9p6h8os001h14lmmhgqnzyv"
-      mapboxAccessToken={process.env.mapboxKey}
+      mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_KEY}
       style={{ width: "100%", height: "100%" }}
       onMove={(evt) => setViewState(evt.viewState)}
     >
