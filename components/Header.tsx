@@ -11,7 +11,7 @@ import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main style file
 import "react-date-range/dist/theme/default.css"; // theme css file
 //@ts-ignore
-import { DateRangePicker } from "react-date-range" ;
+import { DateRangePicker } from "react-date-range";
 import { useRouter } from "next/router";
 
 const Header = (props: { placeholder?: string }) => {
