@@ -1,4 +1,4 @@
-Sample: https://airbnb-clone-self-eight.vercel.app/
+Sample: https://oswinyim-airbnb-clone.vercel.app/
 
 ![CleanShot 2022-10-26 at 15 29 33](https://user-images.githubusercontent.com/67218011/198118992-a18e185d-f3b7-450b-8eed-dc4dcfadaf33.gif)
 
